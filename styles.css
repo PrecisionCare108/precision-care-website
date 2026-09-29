@@ -16,7 +16,7 @@ grid .card:last-child{}
 
 
 @media (max-width: 768px) {
-
+.nav > .btn { display: none; }
   .nav {
     align-items: center;
   }
