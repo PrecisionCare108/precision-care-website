@@ -55,4 +55,8 @@ grid .card:last-child{}
     z-index: 1000;
 }
 
+.links.open a {
+     display: block !important;
+     color: var(--navy);
 }
+
