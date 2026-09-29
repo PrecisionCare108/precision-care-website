@@ -41,17 +41,18 @@ grid .card:last-child{}
     width: 100%;
   }
 
-  .links.open {
+ .links.open {
     display: flex;
     flex-direction: column;
-    gap: 15px;
     position: absolute;
-    top: 90px;
+    top: 80px;
     left: 0;
     right: 0;
+    width: 100%;
     background: white;
     padding: 20px;
-    z-index: 10;
-  }
+    gap: 15px;
+    z-index: 1000;
+}
 
 }
