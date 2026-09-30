@@ -92,4 +92,24 @@ grid .card:last-child{}
 padding:3px 0;
 line-height:1.2;
 }
+/* Mobile hero refinement */
+.hero {
+    padding:48px 0 50px;
+}
 
+.hero h1 {
+    font-size:2.8rem;
+    line-height:1.05;
+    margin-bottom:18px;
+}
+
+.hero p {
+    margin-bottom:24px;
+}
+
+.hero-photo {
+    min-height:280px;
+    border-radius:22px;
+}
+
+}
