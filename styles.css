@@ -34,7 +34,18 @@ grid .card:last-child{}
   }
     .home-supports .grid {
     gap:18px;
-  }   
+  }
+    .home-supports .card {
+    padding:24px;
+}
+
+.home-supports h2 {
+    margin-bottom:24px;
+}
+
+.home-supports .card h3 {
+    margin-bottom:12px;
+}
     .logo {
     width: 175px;
     height: auto;
