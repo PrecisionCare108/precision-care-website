@@ -21,14 +21,13 @@ grid .card:last-child{}
         display:none;
     }
 
-    .nav .btn {
-        display:none;
-    }
+    
 
-    .nav {
-        align-items:center;
-    }
-
+    
+  .nav {
+    align-items:center;
+    position:relative;
+    z-index:1100;
 }
 
   .logo {
@@ -55,7 +54,7 @@ grid .card:last-child{}
     display:flex;
     flex-direction:column;
     position:absolute;
-    top:94px;
+    top:110px;
     left:0;
     right:0;
     width:100%;
