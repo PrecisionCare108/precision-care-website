@@ -49,9 +49,71 @@ REFERRALS
 Start a referral conversation.
 </h1>
 
+
 <p class="lead">
-Whether you are a participant, family member, Support Coordinator or Plan Manager, we welcome referrals and enquiries.
+Whether you are a participant, family member, Support Coordinator or Plan Manager, we welcome the opportunity to discuss how Precision Care can support individual goals and everyday life.
 </p>
+
+<p class="notice">
+To protect privacy, please avoid including medical records, detailed diagnoses or sensitive documents in this initial enquiry. We can discuss any additional information required after initial contact.
+</p>
+
+<form class="form" action="mailto:info@precisioncareandservices.com.au" method="post" enctype="text/plain">
+
+<div class="field">
+<label for="who">I am a</label>
+<select id="who" name="Referrer type">
+<option>Participant</option>
+<option>Family member / nominee</option>
+<option>Support Coordinator</option>
+<option>Plan Manager</option>
+<option>Other professional</option>
+</select>
+</div>
+
+<div class="field">
+<label for="name">Your name</label>
+<input id="name" name="Name" required>
+</div>
+
+<div class="field">
+<label for="email">Email</label>
+<input id="email" name="Email" type="email" required>
+</div>
+
+<div class="field">
+<label for="phone">Phone</label>
+<input id="phone" name="Phone" type="tel">
+</div>
+
+<div class="field">
+<label for="area">Participant's general area</label>
+<input id="area" name="Area" placeholder="e.g. Hornsby, Penrith, Gosford">
+</div>
+
+<div class="field">
+<label for="support">Support of interest</label>
+<select id="support" name="Support">
+<option>Daily Living & Independence</option>
+<option>Community Access & Participation</option>
+<option>Life Skills Development</option>
+<option>Complex & Individualised Support</option>
+<option>Youth Justice Support</option>
+<option>Short-Term & Respite Support</option>
+<option>Appointments & Everyday Tasks</option>
+</select>
+</div>
+
+<div class="field">
+<label for="message">Brief enquiry</label>
+<textarea id="message" name="Message" rows="5"></textarea>
+</div>
+
+<button class="btn primary" type="submit">
+Prepare Referral Enquiry
+</button>
+
+</form>
 
 </div>
 
