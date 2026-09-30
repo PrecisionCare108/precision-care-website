@@ -68,5 +68,7 @@ grid .card:last-child{}
 .links.open a {
     text-align:center;
     font-size:18px;
+padding:6px 0;
+line-height:1.2;
 }
 
