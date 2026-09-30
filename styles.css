@@ -104,11 +104,11 @@ line-height:1.2;
 }
 
 .hero p {
-    margin-bottom:24px;
+    margin-bottom:18px;
 }
 
 .hero-photo {
-    min-height:280px;
+    min-height:250px;
     border-radius:22px;
 }
 
