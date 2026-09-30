@@ -59,8 +59,8 @@ grid .card:last-child{}
     right:0;
     width:100%;
     background:white;
-    padding:18px 20px;
-    gap:12px;
+    padding:10px 20px 14px;
+    gap:8px;
     z-index:1000;
     box-shadow:0 10px 20px rgba(0,0,0, .08);
 }
