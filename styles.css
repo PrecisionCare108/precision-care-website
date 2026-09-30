@@ -29,8 +29,10 @@ grid .card:last-child{}
     position:relative;
     z-index:1100;
 }
-
-  .logo {
+.section {
+    padding:52px 0;
+  }
+    .logo {
     width: 175px;
     height: auto;
   }
