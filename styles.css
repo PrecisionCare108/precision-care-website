@@ -32,6 +32,9 @@ grid .card:last-child{}
 .section {
     padding:52px 0;
   }
+    .home-supports .grid {
+    gap:18px;
+  }   
     .logo {
     width: 175px;
     height: auto;
