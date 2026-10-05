@@ -341,3 +341,8 @@ footer img {
     height: auto;
     display: block;
 }
+footer img.footer-logo {
+    width: 175px !important;
+    max-width: 175px !important;
+    height: auto !important;
+}
