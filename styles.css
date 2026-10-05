@@ -334,3 +334,10 @@ footer img {
     display: block !important;
   }
 }
+
+/* Footer logo sizing */
+.footer-logo {
+    width: 175px;
+    height: auto;
+    display: block;
+}
