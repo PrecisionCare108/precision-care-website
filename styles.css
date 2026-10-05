@@ -56,17 +56,20 @@ grid .card:last-child{}
     height: auto;
   }
 
-   .menu-toggle {
-  display: none !important;
+.menu-toggle {
+    display: none !important;
+}
+
+  @media (max-width: 620px) {
+  .menu-toggle {
+    display: block !important;
     background: none;
     border: none;
     font-size: 28px;
     color: var(--navy);
     cursor: pointer;
     margin-left: auto;
-  }
-
-  @media (max-width: 620px) {
+}
   .links {
     display: none;
     width: 100%;
