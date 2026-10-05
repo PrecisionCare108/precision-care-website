@@ -304,3 +304,22 @@ footer img {
     text-align: left;
   }
 }
+
+/* ABOUT PAGE — MOBILE POLISH */
+@media (max-width: 620px) {
+  .about-page .hero {
+    padding: 48px 20px 38px;
+  }
+
+  .about-page .section {
+    padding: 38px 0;
+  }
+
+  .about-page .grid {
+    gap: 16px;
+  }
+
+  .about-page .card {
+    padding: 26px;
+  }
+}
