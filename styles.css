@@ -328,3 +328,12 @@ footer img {
     display: block !important;
   }
 }
+.menu-toggle {
+  display: none !important;
+}
+
+@media (max-width: 620px) {
+  .menu-toggle {
+    display: block !important;
+  }
+}
