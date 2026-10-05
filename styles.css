@@ -323,3 +323,8 @@ footer img {
     padding: 26px;
   }
 }
+@media (max-width: 620px) {
+  .menu-toggle {
+    display: block;
+  }
+}
