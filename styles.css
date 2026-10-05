@@ -56,8 +56,8 @@ grid .card:last-child{}
     height: auto;
   }
 
-  .menu-toggle {
-    display: none;
+   .menu-toggle {
+  display: none !important;
     background: none;
     border: none;
     font-size: 28px;
@@ -325,6 +325,6 @@ footer img {
 }
 @media (max-width: 620px) {
   .menu-toggle {
-    display: block;
+    display: block !important;
   }
 }
