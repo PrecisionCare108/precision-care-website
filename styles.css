@@ -363,5 +363,9 @@ footer img.footer-logo {
   .supports-page .hero .lead {
     text-align: left;
   }
+.referral-page h1 {
+  font-size: 48px;
+  line-height: 1.05;
+}
 }
 
