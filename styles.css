@@ -349,3 +349,18 @@ footer img.footer-logo {
     max-width: 175px !important;
     height: auto !important;
 }
+@media (max-width: 620px) {
+  .supports-page .hero .center {
+    text-align: left;
+  }
+
+  .supports-page .hero h1 {
+    font-size: 48px;
+    line-height: 1.05;
+    text-align: left;
+  }
+
+  .supports-page .hero .lead {
+    text-align: left;
+  }
+}
